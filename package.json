@@ -1,0 +1,28 @@
+{
+    "name": "instagram_app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server"
+    },
+    "keywords": [],
+    "author": "ABD",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "http-errors": "^1.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongoose": "^5.13.7",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.3",
+        "ngrok": "^4.1.0",
+        "node-fetch": "^2.6.1",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.1.6",
+        "winston": "^3.3.3"
+    }
+}
